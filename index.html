@@ -1,0 +1,379 @@
+<!-- 4c9eb674a35ab11e -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ana Mello Calçados — Calçados femininos confortáveis, modernos e versáteis | Pioneervital</title>
+
+<style>
+  :root{
+    --bg:#FBF7F3;
+    --cream:#F3ECE3;
+    --nude:#C9A38D;
+    --nude-dark:#A67F66;
+    --rose:#E8D3C4;
+    --ink:#2B2320;
+    --muted:#6B5B52;
+    --line:#E5D9CD;
+    --white:#FFFFFF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:16px}
+  h1,h2,h3,h4{font-family:'Georgia','Times New Roman',serif;font-weight:400;letter-spacing:-.01em}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .nyy5_container{max-width:1200px;margin:0 auto;padding:0 24px}
+  .nyy5_btn{display:inline-block;padding:14px 32px;background:var(--ink);color:var(--white);border:none;cursor:pointer;font-size:14px;letter-spacing:.08em;text-transform:uppercase;transition:all .3s}
+  .nyy5_btn:hover{background:var(--nude-dark)}
+  .nyy5_btn-outline{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+  .nyy5_btn-outline:hover{background:var(--ink);color:var(--white)}
+
+  header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:100}
+  .nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+  .nyy5_logo{font-family:'Georgia',serif;font-size:26px;letter-spacing:.15em;color:var(--ink)}
+  .nyy5_logo span{color:var(--nude-dark);font-style:italic}
+  .nav ul{display:flex;gap:36px;list-style:none}
+  .nav ul a{font-size:14px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);transition:color .2s}
+  .nav ul a:hover{color:var(--ink)}
+  .nyy5_nav-icons{display:flex;gap:20px;align-items:center;color:var(--muted)}
+  .menu-toggle{display:none;background:none;border:none;font-size:24px;cursor:pointer;color:var(--ink)}
+
+  .nyy5_hero{background:linear-gradient(135deg,var(--cream) 0%,var(--rose) 100%);padding:100px 0;position:relative;overflow:hidden}
+  .nyy5_hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+  .nyy5_hero h1{font-size:56px;line-height:1.1;margin-bottom:24px;color:var(--ink)}
+  .nyy5_hero h1 em{font-style:italic;color:var(--nude-dark)}
+  .nyy5_hero p{font-size:18px;color:var(--muted);margin-bottom:36px;max-width:480px}
+  .nyy5_hero-visual{position:relative;height:520px;background:var(--nude);display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .nyy5_hero-visual::before{content:"";position:absolute;inset:20px;border:1px solid rgba(255,255,255,.4)}
+  .nyy5_hero-visual-inner{text-align:center;color:var(--white);padding:40px;z-index:2}
+  .nyy5_hero-visual-inner .nyy5_brand{font-family:'Georgia',serif;font-size:72px;letter-spacing:.1em;line-height:1;margin-bottom:12px}
+  .nyy5_hero-visual-inner .nyy5_tag{font-size:13px;letter-spacing:.4em;text-transform:uppercase;opacity:.85}
+
+  .nyy5_section{padding:90px 0}
+  .nyy5_section-header{text-align:center;margin-bottom:60px}
+  .nyy5_section-header .nyy5_eyebrow{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--nude-dark);margin-bottom:16px;display:block}
+  .nyy5_section-header h2{font-size:42px;margin-bottom:16px}
+  .nyy5_section-header p{color:var(--muted);max-width:640px;margin:0 auto;font-size:17px}
+
+  .nyy5_categorias{background:var(--white)}
+  .nyy5_cat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .nyy5_cat-card{position:relative;aspect-ratio:3/4;overflow:hidden;cursor:pointer;background:var(--cream)}
+  .nyy5_cat-card-inner{position:absolute;inset:0;background:linear-gradient(180deg,rgba(43,35,32,0) 0%,rgba(43,35,32,.5) 60%,rgba(43,35,32,.85) 100%);display:flex;flex-direction:column;justify-content:flex-end;padding:32px;color:var(--white);transition:all .4s}
+  .nyy5_cat-card-bg{position:absolute;inset:0;background:var(--nude);display:flex;align-items:center;justify-content:center;font-family:'Georgia',serif;font-size:120px;color:rgba(255,255,255,.15);letter-spacing:.05em;transition:transform .6s}
+  .nyy5_cat-card:hover .nyy5_cat-card-bg{transform:scale(1.08)}
+  .nyy5_cat-card:nth-child(1) .nyy5_cat-card-bg{background:linear-gradient(135deg,#C9A38D,#A67F66)}
+  .nyy5_cat-card:nth-child(2) .nyy5_cat-card-bg{background:linear-gradient(135deg,#8B6F5C,#6B5142)}
+  .nyy5_cat-card:nth-child(3) .nyy5_cat-card-bg{background:linear-gradient(135deg,#D4B5A0,#B69179)}
+  .nyy5_cat-card:nth-child(4) .nyy5_cat-card-bg{background:linear-gradient(135deg,#7A6357,#5C4A40)}
+  .nyy5_cat-card:nth-child(5) .nyy5_cat-card-bg{background:linear-gradient(135deg,#E0C7B4,#C9A895)}
+  .nyy5_cat-card:nth-child(6) .nyy5_cat-card-bg{background:linear-gradient(135deg,#9E8574,#7C6656)}
+  .nyy5_cat-card h3{font-size:26px;margin-bottom:6px;letter-spacing:.02em}
+  .nyy5_cat-card span{font-size:12px;letter-spacing:.25em;text-transform:uppercase;opacity:.85}
+
+  .nyy5_sobre{background:var(--cream);padding:120px 0}
+  .nyy5_sobre-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+  .nyy5_sobre-visual{background:var(--nude-dark);aspect-ratio:4/5;position:relative;display:flex;align-items:center;justify-content:center}
+  .nyy5_sobre-visual::before{content:"";position:absolute;top:24px;left:24px;right:24px;bottom:24px;border:1px solid rgba(255,255,255,.3)}
+  .nyy5_sobre-visual-mark{font-family:'Georgia',serif;font-style:italic;color:rgba(255,255,255,.9);font-size:56px;text-align:center;padding:0 40px;z-index:2;line-height:1.3}
+  .nyy5_sobre-content .nyy5_eyebrow{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--nude-dark);margin-bottom:20px;display:block}
+  .nyy5_sobre-content h2{font-size:44px;margin-bottom:28px;line-height:1.15}
+  .nyy5_sobre-content p{color:var(--muted);margin-bottom:20px;font-size:17px}
+  .nyy5_sobre-content .nyy5_signature{font-family:'Georgia',serif;font-style:italic;font-size:22px;color:var(--nude-dark);margin-top:32px}
+
+  .nyy5_diferenciais{background:var(--white)}
+  .nyy5_dif-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}
+  .nyy5_dif-item{text-align:center;padding:20px}
+  .nyy5_dif-icon{width:64px;height:64px;margin:0 auto 24px;background:var(--cream);display:flex;align-items:center;justify-content:center;font-size:26px;color:var(--nude-dark)}
+  .nyy5_dif-item h4{font-size:18px;margin-bottom:10px;letter-spacing:.02em}
+  .nyy5_dif-item p{color:var(--muted);font-size:14px;line-height:1.6}
+
+  .nyy5_depoimentos{background:var(--cream)}
+  .nyy5_dep-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+  .nyy5_dep-card{background:var(--white);padding:40px 32px;border-top:2px solid var(--nude)}
+  .nyy5_dep-stars{color:var(--nude-dark);letter-spacing:2px;margin-bottom:18px;font-size:14px}
+  .nyy5_dep-card p{color:var(--muted);font-style:italic;margin-bottom:24px;font-size:15px;line-height:1.7}
+  .nyy5_dep-author{font-family:'Georgia',serif;font-size:16px;color:var(--ink)}
+  .nyy5_dep-author small{display:block;font-family:'Helvetica Neue',sans-serif;font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--nude-dark);margin-top:4px;font-style:normal}
+
+  .nyy5_contato{background:var(--ink);color:var(--white);padding:100px 0}
+  .nyy5_contato .nyy5_section-header h2{color:var(--white)}
+  .nyy5_contato .nyy5_section-header p{color:rgba(255,255,255,.7)}
+  .nyy5_contato .nyy5_section-header .nyy5_eyebrow{color:var(--nude)}
+  .nyy5_contato-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;margin-top:40px}
+  .nyy5_contato-info h3{font-size:24px;margin-bottom:28px;color:var(--white)}
+  .nyy5_contato-item{display:flex;gap:20px;margin-bottom:24px;align-items:flex-start}
+  .nyy5_contato-item-icon{width:44px;height:44px;background:var(--nude-dark);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px}
+  .nyy5_contato-item-text strong{display:block;font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--nude);margin-bottom:6px}
+  .nyy5_contato-item-text span{color:rgba(255,255,255,.85);font-size:15px}
+  .nyy5_form-grid{display:grid;gap:16px}
+  .nyy5_form-grid input,.nyy5_form-grid textarea{width:100%;padding:14px 18px;background:transparent;border:1px solid rgba(255,255,255,.2);color:var(--white);font-family:inherit;font-size:15px;transition:border .2s}
+  .nyy5_form-grid input:focus,.nyy5_form-grid textarea:focus{outline:none;border-color:var(--nude)}
+  .nyy5_form-grid input::placeholder,.nyy5_form-grid textarea::placeholder{color:rgba(255,255,255,.5)}
+  .nyy5_form-grid textarea{resize:vertical;min-height:120px}
+  .nyy5_form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .nyy5_form-grid button{background:var(--nude);color:var(--ink);padding:16px;border:none;font-size:14px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:background .2s;font-weight:600}
+  .nyy5_form-grid button:hover{background:var(--white)}
+
+  footer{background:#1A1512;color:rgba(255,255,255,.7);padding:60px 0 30px;font-size:14px}
+  .nyy5_footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+  .nyy5_footer-col h4{color:var(--white);font-size:13px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:20px;font-family:'Helvetica Neue',sans-serif;font-weight:600}
+  .nyy5_footer-col p,.nyy5_footer-col a{color:rgba(255,255,255,.6);font-size:14px;line-height:1.9;display:block}
+  .nyy5_footer-col a:hover{color:var(--nude)}
+  .nyy5_footer-brand{font-family:'Georgia',serif;font-size:24px;letter-spacing:.15em;color:var(--white);margin-bottom:16px;display:block}
+  .nyy5_footer-social{display:flex;gap:14px;margin-top:20px}
+  .nyy5_footer-social a{width:36px;height:36px;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;transition:background .2s}
+  .nyy5_footer-social a:hover{background:var(--nude-dark)}
+  .nyy5_footer-legal{border-top:1px solid rgba(255,255,255,.1);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-size:13px;color:rgba(255,255,255,.5)}
+  .nyy5_footer-legal-info{max-width:720px;line-height:1.7}
+  .nyy5_footer-legal-info strong{display:block;color:rgba(255,255,255,.75);margin-bottom:4px;font-size:14px}
+  .nyy5_footer-legal-links{display:flex;gap:24px;align-items:flex-start}
+  .nyy5_footer-legal-links a{color:rgba(255,255,255,.6)}
+
+  @media (max-width:900px){
+    .nav ul{display:none}
+    .menu-toggle{display:block}
+    .nyy5_hero{padding:60px 0}
+    .nyy5_hero-grid,.nyy5_sobre-grid,.nyy5_contato-grid,.nyy5_footer-grid{grid-template-columns:1fr;gap:40px}
+    .nyy5_hero h1{font-size:38px}
+    .nyy5_hero-visual{height:360px}
+    .nyy5_hero-visual-inner .nyy5_brand{font-size:52px}
+    .nyy5_section{padding:60px 0}
+    .nyy5_section-header h2,.nyy5_sobre-content h2{font-size:32px}
+    .nyy5_cat-grid,.nyy5_dif-grid,.nyy5_dep-grid{grid-template-columns:1fr;gap:20px}
+    .nyy5_dif-grid{grid-template-columns:repeat(2,1fr)}
+    .nyy5_form-row{grid-template-columns:1fr}
+    .nyy5_footer-legal{flex-direction:column}
+  }
+</style>
+
+<link rel="canonical" href="https://pioneervital.online/">
+<meta name="description" content="Visite pioneervital.online e acesse conteúdo original. Informações detalhadas e atualizadas sobre este assunto.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pioneervital.online/">
+<meta property="og:site_name" content="pioneervital.online">
+<meta property="og:description" content="Visite pioneervital.online e acesse conteúdo original. Informações detalhadas e atualizadas sobre este assunto.">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:domain" content="pioneervital.online">
+<meta name="generator" content="cms-f342b519f170">
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Pioneervital","url":"https://pioneervital.online/","datePublished":"2024-03-06","dateModified":"2025-08-05","inLanguage":"pt-BR","isPartOf":{"@type":"WebSite","name":"Pioneervital","url":"https://pioneervital.online/"},"publisher":{"@type":"Organization","name":"Pioneervital","url":"https://pioneervital.online/"}}</script>
+
+<style>:root{--jitp-p:rgb(108,209,46);--jitp-s:rgb(76,105,233);--jitp-id:'4c92d3aaf87a'}@keyframes xxcqndsz{from{opacity:1}to{opacity:1}}.dnhdfu{position:absolute;width:0;height:0;overflow:hidden;pointer-events:none}</style>
+<!-- b:ck5owwj3lh v2.65.30 -->
+</head>
+<body data-s="370dcebf" data-p="ba4ab6">
+<noscript><div style="padding:16px;text-align:center;font-size:13px;"><p>Ative o JavaScript para acessar todo o conteúdo de pioneervital.</p></div></noscript>
+
+<header>
+  <div class="nyy5_container">
+    <div class="nav">
+      <a href="index.html" class="nyy5_logo">ANA <span>Mello</span></a>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#categorias">Coleção</a></li>
+        <li><a href="#sobre">Quem Somos</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="nyy5_nav-icons">
+        <button class="menu-toggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="home" class="nyy5_hero">
+  <div class="nyy5_container">
+    <div class="nyy5_hero-grid">
+      <div>
+        <span style="display:block;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--nude-dark);margin-bottom:24px">Nova coleção • Outono/Inverno</span>
+        <h1>Calçados que caminham <em>com você</em>, do escritório ao jantar.</h1>
+        <p>Design contemporâneo, conforto pensado em cada detalhe e a qualidade de uma marca feita para a mulher moderna. Descubra a coleção Ana Mello.</p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap">
+          <a href="#categorias" class="nyy5_btn">Explorar Coleção</a>
+          <a href="#sobre" class="nyy5_btn nyy5_btn-outline">Nossa História</a>
+        </div>
+      </div>
+      <div class="nyy5_hero-visual">
+        <div class="nyy5_hero-visual-inner">
+          <div class="nyy5_brand">AM</div>
+          <div class="nyy5_tag">Since 2014 • São Paulo</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="categorias" class="nyy5_section nyy5_categorias">
+  <div class="nyy5_container">
+    <div class="nyy5_section-header">
+      <span class="nyy5_eyebrow">Nossas Coleções</span>
+      <h2>Um modelo para cada ocasião</h2>
+      <p>Do casual sofisticado ao clássico atemporal — cada linha foi pensada para acompanhar a rotina da mulher contemporânea com conforto e elegância.</p>
+    </div>
+    <div class="nyy5_cat-grid">
+      <div class="nyy5_cat-card"><div class="nyy5_cat-card-bg">S</div><div class="nyy5_cat-card-inner"><span>Coleção</span><h3>Sandálias</h3></div></div>
+      <div class="nyy5_cat-card"><div class="nyy5_cat-card-bg">B</div><div class="nyy5_cat-card-inner"><span>Coleção</span><h3>Botas</h3></div></div>
+      <div class="nyy5_cat-card"><div class="nyy5_cat-card-bg">SP</div><div class="nyy5_cat-card-inner"><span>Coleção</span><h3>Sapatilhas</h3></div></div>
+      <div class="nyy5_cat-card"><div class="nyy5_cat-card-bg">T</div><div class="nyy5_cat-card-inner"><span>Coleção</span><h3>Tênis</h3></div></div>
+      <div class="nyy5_cat-card"><div class="nyy5_cat-card-bg">R</div><div class="nyy5_cat-card-inner"><span>Coleção</span><h3>Rasteiras</h3></div></div>
+      <div class="nyy5_cat-card"><div class="nyy5_cat-card-bg">SC</div><div class="nyy5_cat-card-inner"><span>Coleção</span><h3>Sapatos Sociais</h3></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" class="nyy5_sobre">
+  <div class="nyy5_container">
+    <div class="nyy5_sobre-grid">
+      <div class="nyy5_sobre-visual">
+        <div class="nyy5_sobre-visual-mark">"Feita para a mulher contemporânea."</div>
+      </div>
+      <div class="nyy5_sobre-content">
+        <span class="nyy5_eyebrow">Quem Somos</span>
+        <h2>Mais de uma década vestindo os passos da mulher moderna.</h2>
+        <p>Trabalho, família, estudos, cuidados com o corpo e com a casa. A rotina da mulher moderna é intensa — e cada passo merece conforto, presença e estilo. Foi pensando nisso que a Ana Mello Calçados nasceu em 2014, na cidade de São Paulo.</p>
+        <p>Desde então, oferecemos o que há de mais atual em design, conforto e praticidade. Cada coleção traz novidades que agregam beleza e qualidade ao dia a dia, permitindo mais liberdade, estilo e sofisticação para quem nos escolhe.</p>
+        <p>Somos uma sociedade empresária limitada, com atuação no comércio varejista de calçados e acessórios, atendendo clientes em todo o território nacional através da nossa loja online.</p>
+        <div class="nyy5_signature">— Ana Mello Calçados</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="nyy5_section nyy5_diferenciais">
+  <div class="nyy5_container">
+    <div class="nyy5_section-header">
+      <span class="nyy5_eyebrow">Por que Ana Mello</span>
+      <h2>Compromisso em cada detalhe</h2>
+    </div>
+    <div class="nyy5_dif-grid">
+      <div class="nyy5_dif-item"><div class="nyy5_dif-icon">✦</div><h4>Design Contemporâneo</h4><p>Coleções alinhadas com as tendências do mundo da moda, revisitando clássicos e propondo novidades a cada temporada.</p></div>
+      <div class="nyy5_dif-item"><div class="nyy5_dif-icon">◈</div><h4>Conforto Real</h4><p>Solados anatômicos, materiais leves e acabamentos pensados para acompanhar longas jornadas sem abrir mão do bem-estar.</p></div>
+      <div class="nyy5_dif-item"><div class="nyy5_dif-icon">◉</div><h4>Qualidade Duradoura</h4><p>Materiais selecionados e processos cuidadosos que garantem durabilidade a cada par que sai de nossos estoques.</p></div>
+      <div class="nyy5_dif-item"><div class="nyy5_dif-icon">✧</div><h4>Atendimento Próximo</h4><p>Suporte direto por telefone, e-mail e formulário para tirar dúvidas, acompanhar pedidos e cuidar de cada cliente.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="depoimentos" class="nyy5_section nyy5_depoimentos">
+  <div class="nyy5_container">
+    <div class="nyy5_section-header">
+      <span class="nyy5_eyebrow">Depoimentos</span>
+      <h2>O que dizem nossas clientes</h2>
+      <p>Relatos reais de quem já experimentou a combinação de conforto, design e qualidade Ana Mello.</p>
+    </div>
+    <div class="nyy5_dep-grid">
+      <div class="nyy5_dep-card"><div class="nyy5_dep-stars">★★★★★</div><p>"Comprei sandálias para usar no trabalho e me surpreendi com o conforto. Uso o dia inteiro sem incômodo, e o modelo é lindo. Já é a terceira compra."</p><div class="nyy5_dep-author">Juliana R.<small>São Paulo · SP</small></div></div>
+      <div class="nyy5_dep-card"><div class="nyy5_dep-stars">★★★★★</div><p>"O atendimento foi excelente do começo ao fim. Recebi o produto no prazo, bem embalado, e a qualidade do calçado é exatamente como aparece no site."</p><div class="nyy5_dep-author">Renata M.<small>Belo Horizonte · MG</small></div></div>
+      <div class="nyy5_dep-card"><div class="nyy5_dep-stars">★★★★★</div><p>"Adorei minha bota nova. Modelo moderno, super confortável e combina com várias produções. Recomendo demais a marca para quem valoriza estilo com bem-estar."</p><div class="nyy5_dep-author">Camila F.<small>Curitiba · PR</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="nyy5_contato">
+  <div class="nyy5_container">
+    <div class="nyy5_section-header">
+      <span class="nyy5_eyebrow">Fale Conosco</span>
+      <h2>Estamos à disposição</h2>
+      <p>Tire dúvidas, faça sugestões ou entre em contato pelos canais abaixo. Nosso atendimento é feito diretamente pela nossa equipe interna.</p>
+    </div>
+    <div class="nyy5_contato-grid">
+      <div class="nyy5_contato-info">
+        <h3>Canais de atendimento</h3>
+        <div class="nyy5_contato-item"><div class="nyy5_contato-item-icon">✉</div><div class="nyy5_contato-item-text"><strong>E-mail</strong><span>oswaldoaras@gmail.com</span></div></div>
+        <div class="nyy5_contato-item"><div class="nyy5_contato-item-icon">☎</div><div class="nyy5_contato-item-text"><strong>Telefone</strong><span>(11) 2387-7845</span></div></div>
+        <div class="nyy5_contato-item"><div class="nyy5_contato-item-icon">◎</div><div class="nyy5_contato-item-text"><strong>Endereço</strong><span>Rua Jacirendi, 222 — Tatuapé<br>São Paulo/SP · CEP 03.080-000</span></div></div>
+        <div class="nyy5_contato-item"><div class="nyy5_contato-item-icon">◷</div><div class="nyy5_contato-item-text"><strong>Horário</strong><span>Segunda a sexta, das 09h às 18h<br>(exceto feriados nacionais)</span></div></div>
+      </div>
+      <div>
+        <h3 style="font-size:24px;margin-bottom:28px;color:var(--white)">Envie uma mensagem</h3>
+        <div class="nyy5_form-grid">
+          <div class="nyy5_form-row">
+            <input type="text" placeholder="Nome completo">
+            <input type="email" placeholder="Seu melhor e-mail">
+          </div>
+          <input type="tel" placeholder="Telefone / WhatsApp">
+          <input type="text" placeholder="Assunto">
+          <textarea placeholder="Sua mensagem"></textarea>
+          <button type="button" onclick="alert('Sua mensagem foi enviada. Retornaremos em até 2 dias úteis.')">Enviar mensagem</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="nyy5_container">
+    <div class="nyy5_footer-grid">
+      <div class="nyy5_footer-col">
+        <span class="nyy5_footer-brand">ANA MELLO</span>
+        <p>Calçados femininos com design contemporâneo, conforto e qualidade. Presente no mercado brasileiro desde 2014.</p>
+        <div class="nyy5_footer-social">
+          <a href="#" aria-label="Instagram">◐</a>
+          <a href="#" aria-label="Facebook">◑</a>
+          <a href="#" aria-label="TikTok">◒</a>
+        </div>
+      </div>
+      <div class="nyy5_footer-col">
+        <h4>Navegação</h4>
+        <a href="#home">Início</a>
+        <a href="#categorias">Coleção</a>
+        <a href="#sobre">Quem Somos</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="nyy5_footer-col">
+        <h4>Institucional</h4>
+        <a href="politica-de-privacidade.html">Política de Privacidade</a>
+        <a href="termos-de-uso.html">Termos de Uso</a>
+        <a href="#contato">Fale Conosco</a>
+      </div>
+      <div class="nyy5_footer-col">
+        <h4>Contato</h4>
+        <p>oswaldoaras@gmail.com</p>
+        <p>(11) 2387-7845</p>
+        <p>Rua Jacirendi, 222<br>Tatuapé — São Paulo/SP<br>CEP 03.080-000</p>
+      </div>
+    </div>
+    <div class="nyy5_footer-legal">
+      <div class="nyy5_footer-legal-info">
+        <strong>ANA MELLO CALCADOS LTDA</strong>
+        CNPJ: 21.000.546/0001-12 · Rua Jacirendi, 222, Tatuapé, São Paulo/SP, CEP 03.080-000 · © 2026 Ana Mello Calçados — Todos os direitos reservados.
+      </div>
+      <div class="nyy5_footer-legal-links">
+        <a href="politica-de-privacidade.html">Privacidade</a>
+        <a href="termos-de-uso.html">Termos</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.menu-toggle').addEventListener('click', () => {
+    const menu = document.querySelector('.nav ul');
+    if(menu.style.display === 'flex'){
+      menu.style.display = 'none';
+    } else {
+      menu.style.display = 'flex';
+      menu.style.flexDirection = 'column';
+      menu.style.position = 'absolute';
+      menu.style.top = '70px';
+      menu.style.left = '0';
+      menu.style.right = '0';
+      menu.style.background = 'var(--bg)';
+      menu.style.padding = '20px 24px';
+      menu.style.borderBottom = '1px solid var(--line)';
+      menu.style.gap = '16px';
+    }
+  });
+</script>
+
+<footer style="text-align:center;padding:19px 14px;font-size:11px;color:#9a9a9a;margin-top:42px;border-top:1px solid #ebebeb"><p>Conteúdo de Pioneervital © 2025. Todos os direitos reservados. Proibida a reprodução sem autorização. <a href="https://pioneervital.online/" style="color:#9a9a9a;text-decoration:none">pioneervital.online</a></p></footer>
+</body>
+</html>
+
+<!-- 548ffb15ebe04a5894e05711 -->
